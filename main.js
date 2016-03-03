@@ -1,7 +1,7 @@
 var item = document.getElementsByClassName('accordionItem');
-var header = document.getElementsByClassName('accordionItemHeading');
+var header = document.getElementsByClassName('accordionItemHeader');
 
-for (i = 0; i < header.length; i++) {
+for (i = 0; i < header.length; ++i) {
     header[i].addEventListener('click', toggleItem, false);
 }
 

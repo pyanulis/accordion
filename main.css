@@ -38,7 +38,7 @@ body{
     background:  #e7e7e7;
     color: #696666;
 }
-.accordionItemHeading{
+.accordionItemHeader{
     cursor:pointer;
     margin:0;
     padding:10px;
@@ -71,7 +71,7 @@ body{
     box-sizing: border-box;
 }
 
-.open .accordionItemHeading{
+.open .accordionItemHeader{
     margin:0px;
     border-radius: 50px;
     border: 1px solid white;
